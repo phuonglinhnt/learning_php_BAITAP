@@ -1,0 +1,83 @@
+body {
+    background-color: #f0d7f0; 
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center; /* căn giữa ngang */
+ 
+}
+
+body, input, select, textarea, button {
+    font-family: "Comic Sans MS", "Segoe Print", sans-serif; 
+}
+
+.bai1 {
+    background: #e7bfe7;
+    padding: 25px 30px;
+    border-radius: 20px; 
+
+}
+
+.bai1 h2 {
+    margin: 0;
+    color: rgb(48, 25, 50);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+  
+}
+
+.bai1 p {
+    margin: 0;
+    color: rgb(48, 25, 50);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+}
+.row input {
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.row select {
+    width: 49%;
+    padding: 1%;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.row input:focus,
+.row select:focus,
+textarea:focus {
+    border-color: rgb(179, 148, 175);
+    
+}
+
+textarea {
+    width: 98%;
+    padding: 4px;
+    border-radius: 6px;
+    margin-top: 5px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+#button {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(223, 118, 176);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto;
+}
+
+#button:hover {
+    background-color: rgb(174, 110, 150);
+    
+}
+
