@@ -1,0 +1,57 @@
+<!-- Bai 1 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bai1">
+      <h2 id="h2">Đăng ký tài khoản</h2>
+      <p><i>Nhận và lựa chọn các thông tin đăng ký</i></p>
+      <form id="myForm">
+        <div class="row" style="margin-bottom: 15px">
+          <input id="ten" type="text" name="ten" placeholder="Tên" />
+          <input id="ho" type="text" placeholder="Họ đệm" />
+        </div>
+
+        <div class="row" style="margin-bottom: 15px">
+          <input id="email" type="text" placeholder="Địa chỉ Email" />
+          <input id="sdt" type="text" placeholder="Số điện thoại" />
+        </div>
+
+        <div class="row" style="margin-bottom: 15px">
+          <select id="thanhpho" aria-label="Chọn thành phố">
+            <option>Chọn thành phố</option>
+            <option value="hanoi">Hà Nội</option>
+            <option value="hcm">TP. Hồ Chí Minh</option>
+            <option value="danang">Đà Nẵng</option>
+            <option value="hue">Huế</option>
+          </select>
+
+          <select id="tinh" aria-label="Chọn tỉnh">
+            <option>Chọn tỉnh</option>
+            <option value="bacninh">Bắc Ninh</option>
+            <option value="binhduong">Bình Dương</option>
+            <option value="dongnai">Đồng Nai</option>
+            <option value="quangnam">Quảng Nam</option>
+          </select>
+        </div>
+
+        <textarea
+          id="ghichu"
+          name="ghichu"
+          rows="10"
+          cols="40"
+          placeholder="Ghi chú"
+        ></textarea>
+
+        <div>
+          <input id="submit" type="submit" value="Đăng ký" />
+        </div>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

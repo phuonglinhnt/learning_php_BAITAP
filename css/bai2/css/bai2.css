@@ -1,0 +1,58 @@
+body {
+  background-color: #6861b8;
+  display: flex;
+  /* Chỉnh phần tử con theo trục dọc */
+  align-items: center;
+  /* Chỉnh phần tử con theo trục ngang */
+  justify-content: center;
+  /* Tạo khoảng trống bên trong phần tử */
+  padding: 50px;
+  font-family: "Comic Sans MS", "Segoe Print", sans-serif;
+  background-image: url("anh2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+table {
+  width: 600px;
+  text-align: center;
+  background-color: #cbcbc4;
+}
+
+table caption {
+  caption-side: top;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+thead th {
+  background-color: rgb(191, 190, 178);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+}
+
+tbody td {
+  padding: 8px;
+  font-size: 14px;
+}
+
+tbody {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+tbody tr td[colspan="4"] {
+  font-weight: bold;
+  background-color: rgba(48, 25, 50, 0.1);
+}
+
+tfoot th {
+  background-color: rgba(48, 25, 50, 0.1);
+  color: white;
+  padding: 10px;
+}
+
+tbody tr {
+  background-color: rgba(255, 255, 255, 0.3);
+}
