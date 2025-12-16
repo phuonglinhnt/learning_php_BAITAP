@@ -108,17 +108,6 @@
         echo"Xin chào".$_POST["ten_dang_nhap"];
     }
     ?>
-    <?phpg
-    echo "<h3>Kiểm tra trị kiểu số</h3>";
-    $don_gia = 1000;
-    if(is_numeric($_POST["so_luong"])) {
-        $so_luong = $_POST["so_luong"];
-        $thanh_tien = $so_luong * $don_gia;
-        echo "Thành tiền là: ".$thanh_tien;
-    }
-    else {
-        echo "Số lượng phải là kiểu số";
-    }
-    ?>
+    
 </body>
 </html>

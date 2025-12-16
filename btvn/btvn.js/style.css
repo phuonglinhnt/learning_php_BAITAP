@@ -57,7 +57,6 @@ body {
 
 #username:focus,
 #password:focus {
-  outline: none;
   border-color: #5d57b9;
 }
 
